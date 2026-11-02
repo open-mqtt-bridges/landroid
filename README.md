@@ -53,3 +53,7 @@ Commands use readable strings: `start`, `pause` (or `stop`), `home`, `zone_train
 - [Docker deployment](https://tobiaswaelde.github.io/landroid-mqtt-bridge/deployment)
 - [Troubleshooting](https://tobiaswaelde.github.io/landroid-mqtt-bridge/troubleshooting)
 - [WLED MQTT Bridge for local lighting](https://tobiaswaelde.github.io/wled-mqtt-bridge/)
+
+## Development toolchain
+
+Use Node.js 26.13.0 LTS and the package manager pinned in `package.json`. Node-based application runtimes require Node.js 26. Builds use TypeScript 7; ESLint and compiler-API consumers use the TypeScript 6 compatibility package. Dependency overrides, where present, pin security fixes for transitive packages; validate tests and documentation builds when changing them.
