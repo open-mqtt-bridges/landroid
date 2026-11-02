@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.0
+
+### Major Changes
+
+- [#34](https://github.com/tobiaswaelde/landroid-mqtt-bridge/pull/34) [`357b52e`](https://github.com/tobiaswaelde/landroid-mqtt-bridge/commit/357b52e4a60414740cd3cbf0bf1a3ed55bdd7e5e) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update stable dependencies and security fixes, and move development, CI, and application images to Node.js 26 LTS. Application container runtimes use Node.js 26; published library and VS Code host compatibility is preserved. TypeScript 7 builds use the TypeScript 6 compatibility API for lint and test tooling.
+
+  Refresh compatible transitive security fixes without forcing incompatible Minimatch or Glob major versions into their upstream consumers.
+
 ## 0.1.5
 
 ### Patch Changes
