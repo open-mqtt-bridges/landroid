@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1
+
+### Patch Changes
+
+- [#43](https://github.com/open-mqtt-bridges/landroid/pull/43) [`9aa4075`](https://github.com/open-mqtt-bridges/landroid/commit/9aa4075f2a6179203dc234849f0a093e500abab9) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Update compatible runtime dependencies and remediate vulnerable transitive tooling while preserving the existing MQTT and configuration contracts.
+
 ## 1.0.0
 
 ### Major Changes
