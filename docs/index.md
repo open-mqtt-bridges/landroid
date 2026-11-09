@@ -17,7 +17,7 @@ hero:
       link: /mqtt
     - theme: alt
       text: GitHub
-      link: https://github.com/tobiaswaelde/landroid-mqtt-bridge
+      link: https://github.com/open-mqtt-bridges/landroid
 
 features:
   - icon: 🌿
@@ -37,4 +37,4 @@ The bridge exposes raw mower snapshots, a small normalized configuration subtree
 
 Start with the [configuration guide](/configuration), review [authentication storage](/authentication), then integrate with the [MQTT contract](/mqtt).
 
-For other devices on the same broker, see the [WLED MQTT Bridge](https://tobiaswaelde.github.io/wled-mqtt-bridge/) and [Displays MQTT Bridge](https://tobiaswaelde.github.io/displays-mqtt-bridge/).
+For other devices on the same broker, see the [WLED MQTT Bridge](https://open-mqtt-bridges.github.io/wled/) and [Displays MQTT Bridge](https://open-mqtt-bridges.github.io/display/).
