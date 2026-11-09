@@ -2,10 +2,10 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
   title: 'Landroid MQTT Bridge',
   description: 'Reliable MQTT integration for robotic mower accounts.',
-  base: '/landroid-mqtt-bridge/',
+  base: '/landroid/',
   cleanUrls: true,
   lastUpdated: true,
-  head: [['link', { rel: 'icon', href: '/landroid-mqtt-bridge/favicon.svg', type: 'image/svg+xml' }]],
+  head: [['link', { rel: 'icon', href: '/landroid/favicon.svg', type: 'image/svg+xml' }]],
   themeConfig: {
     logo: '/logo.svg',
     nav: [
@@ -25,9 +25,9 @@ export default defineConfig({
       { text: 'Troubleshooting', link: '/troubleshooting' },
     ],
     editLink: {
-      pattern: 'https://github.com/tobiaswaelde/landroid-mqtt-bridge/edit/main/docs/:path',
+      pattern: 'https://github.com/tobiaswaelde/landroid/edit/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
-    socialLinks: [{ icon: 'github', link: 'https://github.com/tobiaswaelde/landroid-mqtt-bridge' }],
+    socialLinks: [{ icon: 'github', link: 'https://github.com/open-mqtt-bridges/landroid' }],
   },
 });
