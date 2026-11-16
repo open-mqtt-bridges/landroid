@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3
+
+### Patch Changes
+
+- [#47](https://github.com/open-mqtt-bridges/landroid/pull/47) [`0826225`](https://github.com/open-mqtt-bridges/landroid/commit/08262252bcc4a07c76fa687f4eabeb100a4e5136) Thanks [@tobiaswaelde](https://github.com/tobiaswaelde)! - Remove unused npm and its bundled vulnerable dependencies from the runtime container image.
+
 ## 1.0.2
 
 ### Patch Changes
